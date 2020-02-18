@@ -1,5 +1,5 @@
 <h1><%= @task.title %></h1>
-   <% link_to 'Delete', task_path(@task), method: :delete %>
+   <% link_to 'Delete', task_path(@task), method: :delete, class: "icon-trash" %>
 
     <p>Title:<%= @task.title %></p>
 
